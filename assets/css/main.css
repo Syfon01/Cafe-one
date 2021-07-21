@@ -11,8 +11,8 @@ body{
   background: rgba(0, 0, 0, 1);
 }
 .navbar-expand-lg .navbar-nav .nav-link{
-  padding-right: 1.85rem;
-  padding-left: 1.85rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
   font-weight: 600;
 }
 .navbar-light .navbar-nav .nav-link{
@@ -272,6 +272,9 @@ tr.dotted-line td{
 .margin-long-top{
   margin-top: 11rem;
 }
+.community-img{
+  max-height: 17rem;
+}
  /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .neg-box-x{
@@ -286,7 +289,7 @@ tr.dotted-line td{
     min-height: 30rem;
   }
   .tx-36{
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   .nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link.order-item{
     width: 100%;

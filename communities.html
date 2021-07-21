@@ -55,253 +55,37 @@
         </nav>
       </div>
     </header>
-    <section class="home-top">
-      <div class="container">
-        <div class="col-lg-4 col-md-6 mx-auto text-white top-pad">
-        <p class="fw-bold tx-36 mx-auto text-center">Café One X Vestar Coffee.</p>
-
-          <button class="btn btn-black shadow text-white w-100 fw-semibold py-2 tx-18 fw-bold mt-4" type="button" data-bs-toggle="modal" data-bs-target="#contactModal">View Menu</button>
-        </div>
-      </div>
-    </section>
-    <section class="neg-section">
-      <div class="container text-center py-md-2">
-        <a href="#order">
-          <img src="./assets/img/icons/arrow-downn.svg" alt="" class="text-center" srcset="">
-        </a>
-      </div>
-    </section>
-
-    <section id="order">
-      <div class="container py-md-5 py-4">
-        <p class="tx-24 fw-bold">Pellentesque turpis sed ultricies sed dis lectus. Justo.</p>
-        <div class="row">
-          <div class="col-md-12 col-xl-8 col-lg-8 col-12">
-            <ul class="nav nav-pills mb-4 nav-justified bg-light p-2" id="pills-tab" role="tablist">
-              <li class="nav-item text-center" role="presentation">
-                <button class="nav-link order-item mx-auto" id="pills-tea-tab" data-bs-toggle="pill" data-bs-target="#pills-tea" type="button" role="tab" aria-controls="pills-tea" aria-selected="true">
-                  <img src="./assets/img/icons/tea.svg" alt="" class="img-fluid" srcset="">
-                  
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link order-item mx-auto position-relative" id="pills-cream-tab" data-bs-toggle="pill" data-bs-target="#pills-cream" type="button" role="tab" aria-controls="pills-cream" aria-selected="false">
-                  <img src="./assets/img/icons/ice-cream.svg" alt="" class="img-fluid" srcset="">
-                  <span class="position-absolute  start-100 translate-middle badge rounded-pill bg-danger pill-badge">
-                    1
-                    <span class="visually-hidden">new order</span>
-                  </span>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link order-item mx-auto" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                  <img src="./assets/img/icons/croissant.svg" alt="" class="img-fluid" srcset="">
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link order-item mx-auto" id="pills-pie-tab" data-bs-toggle="pill" data-bs-target="#pills-cpie" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                  <img src="./assets/img/icons/pie.svg" alt="" class="img-fluid" srcset="">
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link order-item active mx-auto" id="pills-fruit-tab" data-bs-toggle="pill" data-bs-target="#pills-fruit" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                  <img src="./assets/img/icons/fruit.svg" alt="" class="img-fluid" srcset="">
-                </button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade" id="pills-tea" role="tabpanel" aria-labelledby="pills-tea-tab">
-                <p class="tx-24 fw-bold mb-1 text-orange">Tea options</p>
-              </div>
-              <div class="tab-pane fade" id="pills-cream" role="tabpanel" aria-labelledby="pills-cream-tab">
-                <p class="tx-24 fw-bold mb-1 text-orange">iced coffee</p>
-                <div class="row">
+      <section class="commuinty-top">
+        <div class="container-fluid">
+          <div class="row justify-content-between">
+            <div class="col-lg-5 col-md-5 col-12 ps-md-0">
+              <img src="./assets/img/community1.png" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="col-lg-7 col-md-7 col-12 mt-4 mt-md-0 px-lg-5 px-md-4">
+              <div class="px-lg-4 px-xl-5 pt-xl-5">
+                <p class="tx-36 fw-bold col-lg-7 col-md-9 col-12">
+                  Cafe One Communities
+                </p>
+                <p class="tx-gray col-lg-7 mb-xl-4">
+                  Proin tincidunt in amet, cursus mi. Non et a eget purus scelerisque sit volutpat. Rhoncus
+                   dignissim ac a orci faucibus pellentesque justo tempor. Lacus mauris pulvinar ultrices.
+                </p>
+                <div class="row mt-xl-5 mt-3 col-xl-11">
                   <div class="col-md-6">
-                    <div class="card shadow-sm border-0">
-                      <img src="./assets/img/cream.png" class="card-img-top img-fluid" alt="...">
-                      <div class="card-body">
-                        <p class="tx-18 fw-bold mb-0">Iced Tea</p>
-                        <p class="tx-gray tx-14 fw-medium">N1,300</p>
-                        <div class="row">
-                          <div class="col-7">
-                            <select class="form-select order-input fw-bold" aria-label="Default select example">
-                              <option selected>Quantity</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                          </div>
-                          <div class="col-5">
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                              <label class="btn btn-order me-2" for="btnradio1">S</label>
-                            
-                              <input type="radio" class="btn-check me-1" name="btnradio" id="btnradio2" autocomplete="off">
-                              <label class="btn btn-order me-2" for="btnradio2">M</label>
-                            
-                              <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                              <label class="btn btn-order" for="btnradio3">L</label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mt-2">
-                          <button class="btn btn-mono-black text-white w-100 py-2 tx-14 fw-bold">Add to Order</button>
-                        </div>
+                    <div class="card border-0">
+                      <img src="./assets/img/community-lifestyle.png" class="card-img-top community-img img-fluid" alt="...">
+                      <div class="card-body px-0">
+                        <p class="tx-24 fw-bold">Lifestyle</p>
+                        <p class="tx-gray mb-0">Leo vulputate at pretium eget mi. Lacus netus sit vulputate nulla quis dui nullam vel feugiat. Tristique dui odio.</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="card shadow-sm border-0">
-                      <img src="./assets/img/cream.png" class="card-img-top img-fluid" alt="...">
-                      <div class="card-body">
-                        <p class="tx-18 fw-bold mb-0">Iced Tea</p>
-                        <p class="tx-gray tx-14 fw-medium">N1,300</p>
-                        <div class="row">
-                          <div class="col-7">
-                            <select class="form-select order-input fw-bold" aria-label="Default select example">
-                              <option selected>Quantity</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                          </div>
-                          <div class="col-5">
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                              <input type="radio" class="btn-check" name="btnradio2" id="btnradio4" autocomplete="off">
-                              <label class="btn btn-order me-2" for="btnradio4">S</label>
-                            
-                              <input type="radio" class="btn-check me-1" name="btnradio2" id="btnradio5" autocomplete="off" checked>
-                              <label class="btn btn-order me-2" for="btnradio5">M</label>
-                            
-                              <input type="radio" class="btn-check" name="btnradio2" id="btnradio6" autocomplete="off">
-                              <label class="btn btn-order" for="btnradio6">L</label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mt-2">
-                          <button class="btn btn-mono-black text-white w-100 py-2 tx-14 fw-bold">Add to Order</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-4">
-                  <div class="col-md-6">
-                    <div class="card shadow-sm border-0">
-                      <img src="./assets/img/cream.png" class="card-img-top img-fluid" alt="...">
-                      <div class="card-body">
-                        <p class="tx-18 fw-bold mb-0">Iced Tea</p>
-                        <p class="tx-gray tx-14 fw-medium">N1,300</p>
-                        <div class="row">
-                          <div class="col-7">
-                            <select class="form-select order-input fw-bold" aria-label="Default select example">
-                              <option selected>Quantity</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                          </div>
-                          <div class="col-5">
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                              <input type="radio" class="btn-check" name="btnradio3" id="btnradio01" autocomplete="off">
-                              <label class="btn btn-order me-2" for="btnradio01">S</label>
-                            
-                              <input type="radio" class="btn-check me-1" name="btnradio3" id="btnradio02" autocomplete="off" checked>
-                              <label class="btn btn-order me-2" for="btnradio02">M</label>
-                            
-                              <input type="radio" class="btn-check" name="btnradio3" id="btnradio03" autocomplete="off">
-                              <label class="btn btn-order" for="btnradio03">L</label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mt-2">
-                          <button class="btn btn-mono-black text-white w-100 py-2 tx-14 fw-bold">Add to Order</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="card shadow-sm border-0">
-                      <img src="./assets/img/cream.png" class="card-img-top img-fluid" alt="...">
-                      <div class="card-body">
-                        <p class="tx-18 fw-bold mb-0">Iced Tea</p>
-                        <p class="tx-gray tx-14 fw-medium">N1,300</p>
-                        <div class="row">
-                          <div class="col-7">
-                            <select class="form-select order-input fw-bold" aria-label="Default select example">
-                              <option selected>Quantity</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                          </div>
-                          <div class="col-5">
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                              <input type="radio" class="btn-check" name="btnradio4" id="btnradio04" autocomplete="off">
-                              <label class="btn btn-order me-2" for="btnradio04">S</label>
-                            
-                              <input type="radio" class="btn-check me-1" name="btnradio4" id="btnradio05" autocomplete="off">
-                              <label class="btn btn-order me-2" for="btnradio05">M</label>
-                            
-                              <input type="radio" class="btn-check" name="btnradio4" id="btnradio06" autocomplete="off" checked>
-                              <label class="btn btn-order" for="btnradio06">L</label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mt-2">
-                          <button class="btn btn-mono-black text-white w-100 py-2 tx-14 fw-bold">Add to Order</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-              <div class="tab-pane fade" id="pills-pie" role="tabpanel" aria-labelledby="pills-pie-tab">...</div>
-              <div class="tab-pane fade show active" id="pills-fruit" role="tabpanel" aria-labelledby="pills-fruit-tab">
-                <p class="tx-24 fw-bold mb-1 text-orange">heart options</p>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="card shadow-sm border-0">
-                      <img src="./assets/img/fruit1.png" class="card-img-top img-fluid" alt="...">
-                      <div class="card-body">
-                        <p class="tx-18 fw-bold mb-0">Greek yogurt parfait</p>
-                        <p class="tx-gray tx-14 fw-medium">N2,200</p>
-                        <div class="row">
-                          <div class="col-7">
-                            <select class="form-select order-input fw-bold" aria-label="Default select example">
-                              <option selected>Quantity</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                          </div>
-                          <div class="col-5">
-                            <button class="btn btn-mono-black text-white w-100 py-2 register-btn tx-14 fw-bold">Add to Order</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="card shadow-sm border-0">
-                      <img src="./assets/img/fruit2.png" class="card-img-top img-fluid" alt="...">
-                      <div class="card-body">
-                        <p class="tx-18 fw-bold mb-0">Chicken and Avacado Salad</p>
-                        <p class="tx-gray tx-14 fw-medium">N3,000</p>
-                        <div class="row">
-                          <div class="col-7">
-                            <select class="form-select order-input fw-bold" aria-label="Default select example">
-                              <option selected>Quantity</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                            </select>
-                          </div>
-                          <div class="col-5">
-                            <button class="btn btn-mono-black text-white w-100 py-2 register-btn tx-14 fw-bold">Add to Order</button>
-                          </div>
-                        </div>
+                    <div class="card border-0">
+                      <img src="./assets/img/commuinity-project.png" class="card-img-top community-img img-fluid" alt="...">
+                      <div class="card-body px-0">
+                        <p class="tx-24 fw-bold">Business</p>
+                        <p class="tx-gray mb-0">Leo vulputate at pretium eget mi. Lacus netus sit vulputate nulla quis dui nullam vel feugiat. Tristique dui odio.</p>
                       </div>
                     </div>
                   </div>
@@ -310,50 +94,97 @@
               
             </div>
           </div>
-          <div class="col-md-8 col-xl-4 col-lg-4 mt-4 mt-lg-0">
-            <div class="card card-body p-3 bg-light border-0 shadow">
-              <p class="tx-24 fw-bold mb-4">order details</p>
-                <div class="table-responsive">
-                  <table class="table table-borderless">
-                    <thead>
-                      <tr>
-                        <th scope="col" class="tx-gray">Items</th>
-                        <th scope="col" class="text-end tx-gray">Price</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td class="tx-medium">2 x Iced Cafe Mocha</td>
-                        <td class="text-end tx-medium">N4,000</td>
-                      </tr>
-                      <tr class="dotted-line">
-                        <td colspan="2"></td>
-                      </tr>
-                      <tr>
-                        <td class="tx-medium">Total</td>
-                        <td class="text-end tx-medium">N4,000</td>
-                      </tr>
-                    </tbody>
-                  </table>
+        </div>
+      </section>
+      <section class="meet-community">
+        <div class="container py-md-5 py-4">
+          <div class="py-md-5">
+            <p class="tx-36 fw-bold mb-md-5">Meet Our Communities</p>
+           <div class="row justify-content-between">
+            <div class="col-md-6 col-lg-7">
+              <img src="./assets/img/community2.png" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
+              <div class="d-flex flex-column h-100 justify-content-center align-items-start">
+                <div class="col-md-6">
+                  <p class="tx-24 fw-bold">Dating and Relationships</p>
                 </div>
-                <div class="margin-long-top mb-2">
-                  <button class="btn btn-lg btn-black shadow text-white w-100 fw-semibold py-2 tx-18 fw-bold" type="button">Pay Now</button>
+                <div class="col-xl-12">
+                  <p class="tx-gray tx-18">
+                    Turpis ultricies netus pharetra felis adipiscing. Id nec consectetur libero sit eleifend eget. Sit amet, ac tellus leo, nec vestibulum risus scelerisque. 
+                  </p>
+                    <a href="http://" class="fw-semibold"> Visit Now
+                      <img src="./assets/img/icons/arrow-right.svg" alt="" srcset="" class="ms-5">
+                      </a>
+              </div>
+            </div>
+          </div>
+           </div>
+
+            <div class="row justify-content-between my-5">
+              <div class="col-md-6 col-lg-4 order-2 order-md-1 mt-4 mt-md-0">
+                <div class="d-flex flex-column h-100 justify-content-center align-items-start">
+                  <div class="col-md-6">
+                    <p class="tx-24 fw-bold">New Mothers</p>
+                  </div>
+                  <div class="col-xl-12">
+                    <p class="tx-gray tx-18">
+                      Turpis ultricies netus pharetra felis adipiscing. Id nec consectetur libero sit eleifend eget. Sit amet, ac tellus leo, nec vestibulum risus scelerisque. 
+                    </p>
+                      <a href="http://" class="fw-semibold"> Visit Now
+                        <img src="./assets/img/icons/arrow-right.svg" alt="" srcset="" class="ms-5">
+                        </a>
                 </div>
               </div>
+            </div>
+              <div class="col-md-6 col-lg-7 order-md-2 order-1">
+                <img src="./assets/img/community3.png" class="img-fluid" alt="" srcset="">
+              </div>
+              
+            </div>
+
+            <div class="row justify-content-between my-5">
+              <div class="col-md-6 col-lg-7">
+                <img src="./assets/img/commuinity4.png" class="img-fluid" alt="" srcset="">
+              </div>
+              <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
+                <div class="d-flex flex-column h-100 justify-content-center align-items-start">
+                  <div class="col-md-6">
+                    <p class="tx-24 fw-bold">Creatives</p>
+                  </div>
+                  <div class="col-xl-12">
+                    <p class="tx-gray tx-18">
+                      Turpis ultricies netus pharetra felis adipiscing. Id nec consectetur libero sit eleifend eget. Sit amet, ac tellus leo, nec vestibulum risus scelerisque. 
+                    </p>
+                      <a href="http://" class="fw-semibold"> Visit Now
+                        <img src="./assets/img/icons/arrow-right.svg" alt="" srcset="" class="ms-5">
+                        </a>
+                </div>
+              </div>
+            </div>
+             </div>
+             <div class="row justify-content-between my-5">
+              <div class="col-md-6 col-lg-4 order-2 order-md-1 mt-4 mt-md-0">
+                <div class="d-flex flex-column h-100 justify-content-center align-items-start">
+                  <div class="col-md-8">
+                    <p class="tx-24 fw-bold">Health and Fitness</p>
+                  </div>
+                  <div class="col-xl-12">
+                    <p class="tx-gray tx-18">
+                      Turpis ultricies netus pharetra felis adipiscing. Id nec consectetur libero sit eleifend eget. Sit amet, ac tellus leo, nec vestibulum risus scelerisque. 
+                    </p>
+                      <a href="http://" class="fw-semibold"> Visit Now
+                        <img src="./assets/img/icons/arrow-right.svg" alt="" srcset="" class="ms-5">
+                        </a>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-6 col-lg-7 order-md-2 order-1">
+                <img src="./assets/img/commuinity6.png" class="img-fluid" alt="" srcset="">
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="booking bg-light">
-      <div class="container py-md-5 py-3 text-center col-xl-9 mx-auto col-md-10">
-        <p class="tx-24 fw-bold mb-1">Track Your Order</p>
-        <p class="tx-gray fw-medium">Please enter the order id sent to you to view or edit your details </p>
-        <input type="text" class="form-control shadow book-input" placeholder="Enter Order ID">
-        <div class="my-3 col-md-4 mx-auto">
-          <button class="btn btn-black shadow text-white w-100">Search for Booking</button>
-        </div>
-      </div>
-    </section>
+      </section>
     <footer class="bg-mono">
       <div class="container py-md-5 py-4 text-white">
         <div class="row justify-content-between">

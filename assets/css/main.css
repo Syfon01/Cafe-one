@@ -321,6 +321,11 @@ tr.dotted-line td{
   top: 0;
 }
  /* X-Small devices (portrait phones, less than 576px) */
+ @media (min-width: 300px) and (max-width: 370.98px) { 
+  li .btn-close{
+    margin-top: -4.5rem!important;
+  }
+ }
 @media (max-width: 575.98px) {
   .neg-box-x{
   margin-left: 0rem;
@@ -373,7 +378,7 @@ tr.dotted-line td{
   text-align: right;
 }
 li .btn-close{
-  margin-top: -5rem;
+  margin-top: -6rem;
 }
 li .register-btn{
   text-align: center!important; 

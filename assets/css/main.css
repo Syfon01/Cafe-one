@@ -34,7 +34,7 @@ body{
   /* color: #fff; */
 }
 .count-right{
-  background: url('../img/BG.png');
+  /* background: url('../img/BG.png'); */
   min-height: 36rem;
   /* background-size: cover; */
 }
@@ -314,6 +314,11 @@ tr.dotted-line td{
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   margin-left: 10px;
   margin-bottom: 10px;
+}
+.pos-abs{
+  position: absolute; /* Position the background text */
+  margin-bottom: 10px;
+  top: 0;
 }
  /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {

@@ -168,6 +168,9 @@ border-radius: 1rem;
 .tx-12{
   font-size: 0.75rem;
 }
+.tx-10{
+font-size: 0.625rem;
+}
 .tx-gray{
   color: #808080
 }
@@ -219,7 +222,10 @@ border-radius: 1rem;
 a{
   text-decoration: none;
   color: rgba(219, 53, 58, 1);
-
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(246, 4, 12);
 }
 tr.dotted-line td{
   border-bottom: 1px dashed  rgba(0, 0, 0, 0.25);  
@@ -275,6 +281,40 @@ tr.dotted-line td{
 .community-img{
   max-height: 17rem;
 }
+.event-side{
+  background: linear-gradient(180deg, rgba(167, 167, 167, 0) 0%, rgba(0, 0, 0, 0.8) 92.5%),url('../img/event.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.food-box{
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}
+.lifestyle-box{
+  background-color: #fff;
+}
+.date-box{
+  background-color: rgba(38, 38, 38, 1);
+  height: 45px;
+  width: 45px;
+  color: #fff;
+  border-radius: 5px;
+}
+.event-pad{
+  padding-top: 8rem;
+}
+.pos-rel{
+  position: relative;
+}
+
+.pos-rel .content-pos {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
  /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .neg-box-x{
@@ -294,10 +334,56 @@ tr.dotted-line td{
   .nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link.order-item{
     width: 100%;
   }
-  
+  .navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -45%;
+    transition: all 0.2s ease;
+}
+
+.navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    transition: left 0.15s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    /* background: rgb(245, 221, 221); */
+    z-index: 999;
+    color: black;
+}
+.navbar-nav {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+.navbar-nav .nav-link{
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  text-align: right;
+}
+li .btn-close{
+  margin-top: -5rem;
+}
+li .register-btn{
+  text-align: center!important; 
  }
+}
+
+
 
  @media (min-width: 768px) and (max-width: 1029.98px) { 
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    font-weight: 600;
+  }
+  
   .neg-box-x{
     margin-left: -2rem;
     }
@@ -310,3 +396,48 @@ tr.dotted-line td{
       min-height: 30rem;
     }
   }
+
+/* mobile navbar sidebar under lg breakpoint */
+@media (min-width: 768px) and (max-width: 992px) {
+    
+  .navbar-collapse.collapsing .navbar-nav {
+      display: block;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: -45%;
+      transition: all 0.2s ease;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      flex-direction: column;
+      height: auto;
+      width: 60%;
+      transition: left 0.15s ease;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      /* background: rgb(245, 221, 221); */
+      z-index: 999;
+      color: black;
+  }
+  .navbar-nav {
+    background-color: #f8f9fa;
+    padding: 3rem;
+  }
+  .navbar-nav .nav-link{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    text-align: right;
+  }
+  li .btn-close{
+    margin-top: -8rem;
+  }
+  li .register-btn{
+  text-align: center!important; 
+ }
+}
+

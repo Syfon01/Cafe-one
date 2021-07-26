@@ -53,11 +53,18 @@ body{
   background-image:linear-gradient( 255deg,rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) ),url('../img/event-bg.png');
   background-size: cover;
   /* background-position: center; */
-  min-height: 37rem;
+  min-height:41rem;
+  background-repeat: no-repeat;
+}
+.single-event-top{
+  background-image:linear-gradient( 255deg,rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) ),url('../img/single-event.png');
+  background-size: cover;
+  /* background-position: center; */
+  min-height: 41rem;
   background-repeat: no-repeat;
 }
 .event-home{
-  min-height: 37rem;
+  min-height: 41rem;
 }
 
 .home-top h1{
@@ -676,4 +683,7 @@ min-height: 27rem;
 }
 .neg-event{
   margin-top: -3.5rem;
+}
+.info-text{
+  line-height: 2;
 }

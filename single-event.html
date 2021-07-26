@@ -31,13 +31,13 @@
                   <button data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="btn-close float-end"></button>
               </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./communities.html">Communities</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./single-event.html.html">Events</a>
+                  <a class="nav-link active" href="./events.html">Events</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./cafe.html">Cafe</a>
@@ -60,427 +60,71 @@
         
       </div>
     </header>
-    <section class="event-top">
+    <section class="single-event-top">
       <div class="container">
         <div class="d-flex flex-column event-home justify-content-center align-items-center text-white">
-          <div class="col-lg-8 col-xl-7 col-md-10 mx-auto text-center">
-            <p class="tx-36 fw-bold">Events At Cafe One</p>
-             <p class="tx-20">Tempor condimentum tempor sit placerat leo. Phasellus urna sit curabitur quam massa amet. Est gravida velit nulla arcu, risus felis a. Lectus at viverra non.</p>
+          <div class="row justify-content-between">
+            <div class="col-md-7 col-lg-6 col-12 mt-md-5">
+              <p class="tx-36 fw-bold">Sip and Paint</p>
+              <p class="tx-20">Molestie et lobortis hac mi, posuere donec morbi libero non. Ac eu, mi vulputate ipsum, consectetur mattis commodo ut. Ut fusce ut.</p>
+            </div>
+            <div class="col-md-5 col-lg-5 col-12 mt-4 mt-md-0">
+              <div class="card card-body bg-mono card-pad">
+                <p class="tx-24 fw-bold">Booking</p>
+                <p class="tx-18">Wednesday, 7th of July, 2021 at 17:00</p>
+                <form action="">
+                  <button class="btn tx-red tx-18 ps-md-0">
+                      <img src="./assets/img/icons/add.svg" class="img-fluid me-2" alt="" srcset="">
+                      Add to Calender
+                  </button>
+                  <div class="mt-3">
+                    <button class="btn btn-black shadow text-white w-100 fw-semibold py-2 tx-18 fw-bold shadow" type="button" >Register Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
           </div>
       </div>
     </section>
-    <section class="search neg-event mb-md-4">
-      <div class="container">
-        <div class="card card-body btn-mono-black pt-4 pb-4 px-4">
-          <form action="" class="mb-1">
-            <div class="row">
-              <div class="col-md-11">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="">
-                    <label for="" class="mb-0 tx-gray">Keyword</label>
-                    <input type="text" class="fusion form-control">
-                  </div>
-                  </div>
-                  <div class="col-md-4 mt-4 mt-md-0">
-                  <div class="">
-                    <label for="" class="mb-0 tx-gray">Dates</label>
-                    <select class="form-select fusion" aria-label="Default select example">
-                      <option selected></option>
-                      <option value="1">Jan</option>
-                      <option value="2">Feb</option>
-                    </select>
-                  </div>
-                  </div>
-                  <div class="col-md-4 mt-4 mt-md-0">
-                    <div class="">
-                    <label for="" class="mb-0 tx-gray">Category</label>
-                    <select class="form-select fusion" aria-label="Default select example">
-                      <option selected></option>
-                      <option value="1">Event one</option>
-                      <option value="2">Event two</option>
-                    </select>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1 text-center">
-                <button class="btn bg-red search-box shadow-sm h-100 rounded">
-                  <img src="./assets/img/icons/search.svg " alt="" class="img-fluid" srcset="">
-                </button>
-                </div>
-              </div>
+    <section class="info">
+      <div class="container py-md-5 py-4">
+        <div class="row justify-content-between mt-md-3 mb-md-5">
+          <div class="col-md-7 col-lg-6 col-12 my-2">
+            <p class="tx-24 fw-bold">Description</p>
+            <p class="tx-18 fw-light tx-gray info-text">Odio ut ac sit dignissim ullamcorper nibh phasellus. Cras neque, erat nascetur ipsum risus interdum. 
+              Imperdiet consequat diam amet, mauris orci mollis viverra. Mauris purus lorem morbi fringilla sodales consequat tellus. 
+              Fringilla augue condimentum varius id platea tortor dui. Lectus ullamcorper nisl commodo sit in vel. 
+              Consectetur sit imperdiet commodo proin iaculis sit. Nec non integer odio nibh vitae scelerisque tempor.
+               Viverra elit praesent posuere dignissim.
+            </p>
+             <p class="tx-18 fw-light tx-gray mt-4 info-text">Aliquet diam, diam mauris auctor imperdiet ultrices blandit ipsum. 
+               Egestas non vulputate varius etiam dapibus molestie. Faucibus tortor, 
+               interdum blandit mi montes. Ornare vestibulum erat suspendisse ante ut et, 
+               viverra morbi dolor. Tristique integer faucibus turpis congue rhoncus aliquam feugiat. 
+               Ut ut donec adipiscing scelerisque magna fermentum.
+              </p>
+          </div>
+          <div class="col-md-5 col-lg-5 col-12 my-2">
+            <p class="tx-24 fw-bold">Event Location</p>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.649436497418!2d3.453256014047684!3d6.43904732592751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf437c0332e21%3A0xf257f7382c710835!2sThe%20Lennox%20Mall!5e0!3m2!1sen!2sng!4v1626772720909!5m2!1sen!2sng" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-          </form>
+            <p class="tx-18 tx-red mt-2">Café One by Sterling, Admiralty Way, Lekki Phase I, Lagos </p>
+
+            <div class="tags mt-5">
+              <p class="tx-24 fw-bold pt-5 mb-0">Tags</p>
+              <span class="badge bg-grey tx-14 text-dark p-3 mt-3">Ultrices eget</span>
+              <span class="badge bg-grey tx-14 text-dark p-3 mt-3">Sed</span>
+              <span class="badge bg-grey tx-14 text-dark p-3 mt-3">Euismod sed nec</span>
+              <span class="badge bg-grey tx-14 text-dark p-3 mt-3">Urna mollis id.</span>
+              <span class="badge bg-grey tx-14 text-dark p-3 mt-3">Nibh.</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-   <section class="past-events">
-    <div class="container py-md-5 py-4">
-      <p class="tx-24 fw-bold">Past Events</p>
-      <div class="row">
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side-new h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 shadow-sm h-100 p-4">
-            <div class="date-box tx-14 tx-gray text-center">
-              <span class="fw-bold">07</span>
-              Aug
-            </div>
-            <p class="tx-32 fw-bold mt-3">
-              Fusion Product Launch
-            </p>
-            <p class="tx-gray mt-4 mb-0">
-              Molestie et lobortis hac mi, posuere donec morbi libero non. Ac eu, mi vulputate ipsum, consectetur mattis commodo ut. Ut fusce ut.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   </section>
-   <section class="upcoming-events">
-    <div class="container py-md-5 py-4">
-      <div class="row justify-content-between">
-        <div class="col-md-6 col-lg-8">
-          <p class="tx-24 fw-bold">Upcoming Events</p>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="d-flex">
-            <select class="form-select form-select-lg chat-select fw-bold tx-14" aria-label=".form-select-lg example">
-              <option selected>Any Date</option>
-              <option value="1">Jan 1</option>
-              <option value="2">Feb 2</option>
-              <option value="3">March 3</option>
-            </select>
-            <select class="form-select form-select-lg chat-select fw-bold tx-14 ms-4 w-100" aria-label=".form-select-lg example">
-              <option selected>Any Category</option>
-              <option value="1">Category one</option>
-              <option value="2">Category Two</option>
-              <option value="3">Category Three</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-md-5">
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-12 my-3">
-          <div class="card card-body border-0 bg-transparent event-side h-100">
-            <div class="d-flex">
-              <div class="rounded text-center food-box me-2">
-                <img src="./assets/img/icons/food.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              <div class="lifestyle-box rounded">
-                <div class="d-flex px-2">
-                  <div>
-                   <img src="./assets/img/icons/lifestyle.svg" class="img-fluid me-2" alt="" srcset="">
-                  </div>
-                  <p class="tx-12 mb-0 pt-1">Lifestyle</p>
-                </div>
-              </div>
-            </div>
-           <div class="event-pad">
-             <div class="date-box tx-14 tx-gray text-center">
-               <span class="fw-bold">07</span>
-               Aug
-             </div>
-             <div class="mt-2">
-             <p class="fw-bold text-white mb-0">Sip and Paint.</p>
-               <p class="text-white tx-12 fw-light mb-1">In eu egestas risus quis pellentesque.</p>
-               <a href="./single-event.html">
-              <img src="./assets/img/icons/arrow-forward.svg" class="img-fluid" alt="" srcset="">
-              </a>
-             </div>
-           </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   </section>
+  
     <footer class="bg-mono">
       <div class="container py-md-5 py-4 text-white">
         <div class="row justify-content-between">

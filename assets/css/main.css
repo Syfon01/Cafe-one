@@ -49,6 +49,17 @@ body{
   min-height: 36rem;
   background-repeat: no-repeat;
 }
+.event-top{
+  background-image:linear-gradient( 255deg,rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) ),url('../img/event-bg.png');
+  background-size: cover;
+  /* background-position: center; */
+  min-height: 37rem;
+  background-repeat: no-repeat;
+}
+.event-home{
+  min-height: 37rem;
+}
+
 .home-top h1{
   padding-top: 15rem;
   color: #fff;
@@ -87,7 +98,7 @@ body{
   width: 28rem;
 
 }
-.fusion-white.form-select, .fusion-white.form-control{
+.fusion-white.form-select{
   border: 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   background-position: right .75rem center;
@@ -97,13 +108,30 @@ body{
   font-weight: 600;
 }
 
-.fusion.form-select, .fusion.form-control{
+.fusion-white.form-control{
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  padding: 0rem;
+  font-weight: 600;
+}
+
+.fusion.form-select{
   background: transparent;
   border: 0;
   border-bottom: 2px solid #fff;
   background-image: url('../img/icons/arrow-down.svg');
   background-position: right .75rem center;
   background-repeat: no-repeat;
+  color: rgb(99, 98, 98);
+  border-radius: 0;
+  padding: 0rem;
+  font-weight: 600;
+}
+.fusion.form-control{
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
   color: rgb(99, 98, 98);
   border-radius: 0;
   padding: 0rem;
@@ -179,6 +207,10 @@ border-radius: 1rem;
 }
 .tx-36{
   font-size: 2.25rem;
+}
+.tx-32{
+  font-size: 2rem;
+  line-height: 1;
 }
 .tx-24{
   font-size:1.5rem ;
@@ -320,6 +352,12 @@ tr.dotted-line td{
 }
 .event-side{
   background: linear-gradient(180deg, rgba(167, 167, 167, 0) 0%, rgba(0, 0, 0, 0.8) 92.5%),url('../img/event.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.event-side-new{
+  background:url('../img/google.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -635,4 +673,7 @@ min-height: 27rem;
 }
 .next-mobile{
   margin-bottom: 5.5rem;
+}
+.neg-event{
+  margin-top: -3.5rem;
 }

@@ -109,6 +109,12 @@ body{
   margin-left: -3.125rem;
   border-radius: 5px;
   margin-top: 3.125rem;
+  z-index: 999999!important;
+  opacity: 1;
+ 
+}
+.over-hidden{
+  overflow:visible;
 }
 .neg-form{
   margin-left: -13.125rem;
@@ -285,6 +291,7 @@ font-size: 0.625rem;
   height: 100%;
   
 }
+
 .nav-tabs .nav-link.set.active{
   background-color: #262626;
   color: #fff;
@@ -517,7 +524,11 @@ min-height: 27rem;
 }
 
 }
-
+.neg-bg .container{
+  padding-top: 22rem!important;
+  padding-bottom: 4rem;
+  }
+  
 
 
  @media (min-width: 768px) and (max-width: 1029.98px) { 
@@ -705,4 +716,17 @@ min-height: 27rem;
 }
 .card.accordion-item{
   margin-bottom: 6rem;
+}
+.bank-brand{
+  background-image:  url('../img/Union-2.png');
+  background-position: right center;
+  background-repeat:  no-repeat;
+  background-origin: initial;
+}
+.neg-bg{
+  margin-top: -20rem;
+}
+.neg-bg .container{
+padding-top: 25rem;
+padding-bottom: 4rem;
 }

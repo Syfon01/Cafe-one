@@ -63,6 +63,18 @@ body{
   min-height: 41rem;
   background-repeat: no-repeat;
 }
+.faq-top{
+  background-image:linear-gradient( 255deg,rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) ),url('../img/faq-bg.png');
+  background-size: cover;
+  /* background-position: center; */
+  min-height: 29rem;
+  background-repeat: no-repeat;
+}
+
+.faq-home{
+  min-height: 29rem;
+}
+
 .event-home{
   min-height: 41rem;
 }
@@ -368,6 +380,7 @@ tr.dotted-line td{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height:17rem;
 }
 .food-box{
   width: 25px;
@@ -686,4 +699,10 @@ min-height: 27rem;
 }
 .info-text{
   line-height: 2;
+}
+.arrow-box:hover{
+  cursor: pointer;
+}
+.card.accordion-item{
+  margin-bottom: 6rem;
 }

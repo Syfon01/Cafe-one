@@ -522,6 +522,15 @@ min-height: 27rem;
 .next-mobile{
   margin-bottom: 5.5rem;
 }
+.over-hidden{
+  overflow:hidden!important;
+}
+.carousel-inner.over-hidden .carousel-item > div {
+  display: block;
+}
+.carousel-inner.over-hidden .carousel-item > div:first-child {
+  display: block;
+}
 
 }
 .neg-bg .container{
@@ -729,4 +738,8 @@ min-height: 27rem;
 .neg-bg .container{
 padding-top: 25rem;
 padding-bottom: 4rem;
+}
+input[type=radio].align-radio::after{
+  border: 2px solid red!important;
+  
 }

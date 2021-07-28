@@ -32,3 +32,13 @@ items.forEach((el) => {
   }
 })
 
+// delete tag 
+function removeTag1() {
+  let tag1 = document.getElementById("tag1");
+  tag1.remove();
+}
+
+function removeTag2() {
+  let tag2 = document.getElementById("tag2");
+  tag2.remove();
+}

@@ -334,6 +334,11 @@ tr.dotted-line td{
   background: url(../img/icons/close.svg) center/1.2em auto no-repeat;
   opacity: 1;
 }
+.btn-close.btn-remove{
+  background: url(../img/icons/close.svg) center/0.6em auto no-repeat;
+  opacity: 1;
+}
+
 .neg-section{
   margin-top: -4rem;
 }
@@ -531,6 +536,9 @@ min-height: 27rem;
 .carousel-inner.over-hidden .carousel-item > div:first-child {
   display: block;
 }
+.mob-margin{
+  margin-bottom: 5rem;
+}
 
 }
 .neg-bg .container{
@@ -571,7 +579,10 @@ min-height: 27rem;
       left: -45%;
       transition: all 0.2s ease;
   }
-
+  .mob-margin{
+    margin-bottom: 5rem;
+  }
+  
   .navbar-collapse.show .navbar-nav {
       position: fixed;
       top: 0;
@@ -742,4 +753,9 @@ padding-bottom: 4rem;
 input[type=radio].align-radio::after{
   border: 2px solid red!important;
   
+}
+.btn-bottom{
+  position: absolute; 
+  bottom: 0; 
+  width: 90%;
 }

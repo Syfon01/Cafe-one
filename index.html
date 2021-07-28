@@ -182,7 +182,7 @@
                   </div>
                   <div class="mb-2">
                     <label for="" class="mb-0 text-white small d-block">Or choose specific seat</label>
-                    <button class="btn btn-black small w-100 fw-semibold text-white py-2">Choose seats</button>
+                    <button class="btn btn-black small w-100 fw-semibold text-white py-2" type="button" data-bs-toggle="modal" data-bs-target="#seatModal">Choose seats</button>
                   </div>
                 </div>
                 <div class="mt-4">
@@ -677,7 +677,8 @@
         </div>
       </div>
     </footer>
-   <!-- Modal -->
+
+   <!--Book space Modal -->
    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
       <div class="modal-content p-md-4 shadow-sm">
@@ -742,6 +743,46 @@
                 <div class="mt-4 mb-2">
                   <button class="btn btn-lg btn-black shadow text-white w-100 fw-semibold py-2 tx-18 fw-bold" type="button">Pay Now</button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--choose seat Modal -->
+  <div class="modal fade" id="seatModal" tabindex="-1" aria-labelledby="seatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg  modal-dialog-centered">
+      <div class="modal-content p-md-4 shadow-sm">
+        <div class="modal-header border-bottom-0 pb-0">
+          <p class="modal-title tx-36 fw-bold" id="seatModalLabel">Select your seat(s)</p>
+          <button type="button" class="btn-close tx-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8 col-12">
+              <img src="./assets/img/Seats.png" alt="" class="img-fluid" srcset="">
+            </div>
+            <div class="col-md-12 col-lg-4 col-12 mt-4 mt-lg-0 pos-rel">
+              <div class="mob-margin">
+                <p class="tx-24 fw-bold mb-1">Seats Selected</p>
+              <div class="bg-grey p-2" id="tag1">
+                <div class="d-flex justify-content-between">
+                  <p class="tx-14 mb-0">Seat 3A: Sofa and C-Table</p>
+                 <button type="button" class="btn-close btn-remove" aria-label="Close" onclick="removeTag1()"></button>
+                </div>
+              </div>
+              <div class="bg-grey p-2 mt-3" id="tag2">
+                <div class="d-flex justify-content-between">
+                  <p class="tx-14 mb-0">Seat 5A: Wall Seat</p>
+                 <button type="button" class="btn-close btn-remove" aria-label="Close" onclick="removeTag2()"></button>
+                </div>
+              </div>
+              </div>
+              
+              <div class="mb-2 btn-bottom mt-5 mt-md-0">
+                <button class="btn btn-lg btn-black shadow text-white w-100 fw-semibold py-2 tx-18 fw-bold" type="button">Confirm Seats</button>
               </div>
             </div>
           </div>

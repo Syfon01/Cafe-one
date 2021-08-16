@@ -14,6 +14,14 @@ window.addEventListener('load', () => {
 });
 
 
+// tooltip 
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+
 /*
     Carousel
 */
@@ -42,3 +50,4 @@ function removeTag2() {
   let tag2 = document.getElementById("tag2");
   tag2.remove();
 }
+
